@@ -15,103 +15,91 @@ body {
 }
 
 header {
-  text-align: center;
+  height: 10vh;
+  width: 100%;
+  font-style: italic;
+  font-size: 2rem;
 }
+
+.portada {
+  width: 100%;
+  height: 40vh;
+  background-image: url(../img/hockey1.jpg);
+  background-size: cover;
+}
+
+
 
 nav {
-  width: inherit
-}
-
-nav ul {
-  margin-left: 80%;
-}
-
-nav ul li {
   display: inline-block;
-  margin: 5px;
-}
+ 
 
-ul li p {
-    margin:  auto;
-    text-align: center;
-   
-}
-
-ul li h4 {
-    display: block;
-    text-align: center;
 }
 
 li {
-  list-style-type: none;
-  margin-bottom: 3rem;
+  display: inline-block;
+  position: relative;
+  left: 60rem;
+  margin-left: 2rem;
 }
 
-a {
+li a {
+  font-weight: 700;
+  color:lightcoral;
   text-decoration: none;
 }
 
-.logo {
-  width: 40%;
-  height: 40%;
-  display: block;
-  margin: auto;
-  padding: auto;
-}
-
-img {
-    width: 20%;
-    display: inline-block;
-}
-
 h3 {
-  text-align: center;
-}
-
-section {
-  width: 100%;
-  height: 20%;  
-}
-
-section p {
-  text-align: center;
-  width: 50%;
-  margin: 60px;
+  font-size: 2rem;
+  font-weight: 400;
+ width: 100%;
+ height: 10vh;
+ text-align: center;
+ margin: 0;
+ padding: 2rem;
   
 }
 
-section div {
-    display: inline-block;
+.imgLogo {
+  width: 100%;
+
 }
 
-section img {
+.about {
+  background-image: url(../img/hockey2.jpg);
+}
+
+.contact {
+  background-image: url(../img/hockey3.jpg);
+}
+
+main {
+  position: relative;
+}
+
+.logo {
   display: inline-block;
-  padding-left: 30px;
+  width: 30%;
 }
 
-h4 {
-    display: inline-block;
+.listas {
+  position: absolute;
+  top: 8rem;
+  display: inline-block;
 }
 
-.about-section  {
-display: inline-block;
-    width: 100%;
-    
+.listas div {
+  margin-bottom: 5rem;
 }
 
-
-.about  {
-    margin-bottom: 3rem;
-    text-align: center;
-    display: block;
+.listas p {
+  margin: 0;
 }
 
-.about h4 {
-    display: inline-block;
+.listas h4 {
+  margin-bottom: 0;
 }
 
-.about p {
-    margin: auto;
-    padding: auto;
-    display: inline-block;
+.listas-p {
+  margin-top: 10rem;
 }
